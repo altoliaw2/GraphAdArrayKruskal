@@ -121,7 +121,6 @@ int main(){
     o_List.fn_InsVet('C', 'D', 8);
     o_List.fn_InsVet('C', 'E', 6);
 
-
     for(int i_Ct= 0; i_Ct < i_Size; i_Ct++){
         for(int i_Ct2= 0; i_Ct2 < i_Size; i_Ct2++){
             std::cout<< o_List.cl2p_Ptr[i_Ct][i_Ct2] << " ";
